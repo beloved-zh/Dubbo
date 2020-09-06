@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53135236-cc44-4a1e-b70f-bbb6651c5a69" name="默认更改列表" comment="" />
+    <list default="true" id="53135236-cc44-4a1e-b70f-bbb6651c5a69" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dubbo-SpringBoot/dubbo-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dubbo-SpringBoot/dubbo-service/src/main/java/com/zh/service/TestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dubbo-SpringBoot/provider-service/src/main/java/com/zh/service/impl/TestServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/dubbo_service/target/" />
     <ignored path="$PROJECT_DIR$/dubbo_service_impl/target/" />
@@ -34,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dubbo_service_impl/src/test/java/Provider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+            <state relative-caret-position="132">
+              <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,7 +52,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dubbo_consumer/src/test/java/Consumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6">
+            <state relative-caret-position="69">
               <caret line="7" column="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -58,17 +64,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dubbo_service_impl/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="49" column="46" lean-forward="true" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dubbo_consumer/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="52" selection-end-column="19" />
+            <state relative-caret-position="435">
+              <caret line="50" column="27" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -76,8 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dubbo_service_impl/src/main/resources/META-INF/spring/applicationContext-dubbo.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="36" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="36" />
+            <state relative-caret-position="3">
+              <caret line="13" column="27" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -85,29 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dubbo_consumer/src/main/resources/applicationContext-dubbo.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dubbo_consumer/src/main/java/com/zh/service/TestService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="1" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dubbo_consumer/src/main/java/com/zh/service/impl/TestServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="15" column="12" selection-end-line="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-46">
+              <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -121,6 +97,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -191,6 +170,7 @@
     <option name="width" value="980" />
     <option name="height" value="1050" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -201,29 +181,29 @@
           <expand>
             <path>
               <item name="Dubbo-Spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo_consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo_service_impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Dubbo-Spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo_consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo_service_impl" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Dubbo-Spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo_consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo_service_impl" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Dubbo-Spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo_consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo_service_impl" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Dubbo-Spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo_consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo_service_impl" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -231,7 +211,7 @@
             </path>
             <path>
               <item name="Dubbo-Spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo_consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo_service_impl" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -240,7 +220,7 @@
             </path>
             <path>
               <item name="Dubbo-Spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo_consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo_service_impl" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -250,7 +230,7 @@
             </path>
             <path>
               <item name="Dubbo-Spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo_consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo_service_impl" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -261,47 +241,21 @@
             </path>
             <path>
               <item name="Dubbo-Spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo_consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo_service_impl" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dubbo-Spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo_consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dubbo-Spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo_consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dubbo-Spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo_service_impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dubbo-Spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo_service_impl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dubbo-Spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo_service_impl" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/dubbo_service_impl/assembly" />
@@ -334,7 +288,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Consumer">
+  <component name="RunManager" selected="Application.Provider">
     <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Consumer" />
       <module name="dubbo_consumer" />
@@ -351,8 +305,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Consumer" />
         <item itemvalue="Application.Provider" />
+        <item itemvalue="Application.Consumer" />
       </list>
     </recent_temporary>
   </component>
@@ -370,16 +324,20 @@
       <workItem from="1599289802154" duration="4466000" />
       <workItem from="1599294374740" duration="3564000" />
       <workItem from="1599312171236" duration="8388000" />
+      <workItem from="1599369148095" duration="1223000" />
+      <workItem from="1599372505386" duration="597000" />
+      <workItem from="1599374055693" duration="2364000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19212000" />
+    <option name="totallyTimeSpent" value="23396000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2600536" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27010724" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -388,7 +346,7 @@
       <window_info id="设计器" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.46251768" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.46175638" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -437,27 +395,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo_service_impl/src/test/java/Provider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo_service_impl/assembly/conf/dubbo.properties" />
+    <entry file="file://$PROJECT_DIR$/dubbo_service_impl/assembly/assembly.xml" />
     <entry file="file://$PROJECT_DIR$/dubbo_consumer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="52" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo_consumer/src/main/resources/applicationContext-dubbo.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -470,7 +413,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dubbo_consumer/src/main/java/com/zh/service/impl/TestServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
+        <state relative-caret-position="299">
           <caret line="15" column="12" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -480,7 +423,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dubbo_consumer/src/test/java/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
+        <state relative-caret-position="69">
           <caret line="7" column="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -488,27 +431,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo_service_impl/src/main/resources/META-INF/spring/applicationContext-dubbo.xml">
+    <entry file="file://$PROJECT_DIR$/dubbo_service_impl/src/test/java/Provider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="36" />
+        <state relative-caret-position="132">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo_service_impl/assembly/conf/dubbo.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo_service_impl/assembly/assembly.xml">
+    <entry file="file://$PROJECT_DIR$/dubbo_consumer/src/main/resources/applicationContext-dubbo.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        <state relative-caret-position="-46">
+          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo_service_impl/src/main/resources/META-INF/spring/applicationContext-dubbo.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dubbo_service_impl/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="49" column="46" lean-forward="true" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
+        <state relative-caret-position="435">
+          <caret line="50" column="27" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="27" />
         </state>
       </provider>
     </entry>

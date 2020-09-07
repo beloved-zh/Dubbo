@@ -13,13 +13,32 @@
     <!--给当前Provider自定义个名字-->
     <dubbo:application name="dubbo-service" />
     <!--配置注册中心-->
-    <dubbo:registry address="192.168.43.200:2181" protocol="zookeeper"></dubbo:registry>
+    <dubbo:registry address="120.55.45.177:2181" protocol="zookeeper"></dubbo:registry>
     <!--配置端口-->
-    <dubbo:protocol name="dubbo" port="20888"></dubbo:protocol>
-    <!--注册功能-->
-    <dubbo:service interface="com.zh.service.DemoService" ref="demoService"></dubbo:service>
-    <bean id="demoService" class="com.zh.service.impl.DemoServiceImpl"></bean>
+    <dubbo:protocol name="dubbo" port="20881"></dubbo:protocol>
+        <!--
+        注册功能
+        timeout：超时时间
+        stub：是否配置本地存根
+        -->
+        <dubbo:service
+                interface="com.zh.service.DemoService"
+                ref="demoServiceImplOld"
+                timeout="3000"
+                version="1.0.0"
+                stub="com.zh.service.impl.DemoServiceImpl"
+        />
+        <bean id="demoServiceImplOld" class="com.zh.service.impl.DemoServiceImplOld"></bean>
 
+        <dubbo:service
+                interface="com.zh.service.DemoService"
+                ref="demoServiceImplNew"
+                timeout="3000"
+                version="2.0.0"
+        />
+        <bean id="demoServiceImplNew" class="com.zh.service.impl.DemoServiceImplNew"></bean>
+    <!--统一配置-->
+    <dubbo:provider timeout="3000" />
     <!--使用注解 配置注解扫描-->
     <!--<dubbo:annotation package="com.zh.service.impl" />-->
 </beans>

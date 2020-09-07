@@ -12,11 +12,46 @@
 
     <!--给当前consumer自定义个名字-->
     <dubbo:application name="dubbo-consumer" />
-    <!--配置注册中心-->
-    <dubbo:registry address="192.168.43.200:2181" protocol="zookeeper"></dubbo:registry>
+    <!--
+    配置注册中心
+    address：注册中心地址
+    protocol：注册中心类型
+    check：启动时检查
+    -->
+    <dubbo:registry
+            address="120.55.45.177:2181"
+            protocol="zookeeper"
+            check="false"
+    />
 
     <!--使用注解 配置注解扫描-->
     <dubbo:annotation package="com.zh.service.impl" />
+
+    <!--
+    配置本地存根
+    本地存根的实现一般在接口放
+    提供者在service配置
+    参考：http://dubbo.apache.org/zh-cn/docs/user/demos/local-stub.html
+    消费者在reference配置stub
+    stub="本地存根实现的全限定类名"
+    -->
+
+        <!--
+        统一配置
+        check：启动时检查
+        timeout：超时时间
+        retries：超时重试次数，不包含第一次连接 0代表不重试
+            幂等（查询，删除，修改）：设置重试次数
+            非幂等（添加）：不设置重试次数
+        version：版本 *代表随机版本
+    -->
+    <dubbo:consumer
+            check="false"
+            timeout="5000"
+            retries="5"
+            version="*"
+    />
+    <!--<dubbo:reference interface="com.zh.service.DemoService" version="1.0.0"/>-->
 
     <bean id="testImpl" class="com.zh.service.impl.TestServiceImpl" ></bean>
 </beans>

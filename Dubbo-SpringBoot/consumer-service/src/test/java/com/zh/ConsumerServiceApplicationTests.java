@@ -5,6 +5,8 @@ import org.apache.dubbo.config.annotation.DubboReference;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import java.io.IOException;
+
 @SpringBootTest
 class ConsumerServiceApplicationTests {
 
@@ -12,12 +14,13 @@ class ConsumerServiceApplicationTests {
     private TestService testService;
 
     @Test
-    void contextLoads() {
+    void contextLoads() throws IOException {
 
         String test = testService.test();
 
         System.out.println(test);
 
+        System.in.read();
     }
 
 }

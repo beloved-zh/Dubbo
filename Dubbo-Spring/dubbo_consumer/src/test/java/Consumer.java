@@ -10,9 +10,10 @@ import java.io.IOException;
  */
 public class Consumer {
     public static void main(String[] args) throws IOException {
+        System.out.println("启动.....");
         ApplicationContext ac = new ClassPathXmlApplicationContext("applicationContext-dubbo.xml");
         TestServiceImpl service = ac.getBean("testImpl", TestServiceImpl.class);
         service.test();
-        System.in.read();
+        System.out.println("启动成功.....");
     }
 }

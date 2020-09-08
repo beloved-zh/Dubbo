@@ -15,7 +15,7 @@ public class TestServiceImpl implements TestService {
 
     public void test() {
         // 调用Provider中提供的方法
-        String name = demoService.demo("张三");
+        String name = demoService.demo(null);
         System.out.println(name);
     }
 }

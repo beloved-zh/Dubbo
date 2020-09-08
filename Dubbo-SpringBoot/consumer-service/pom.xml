@@ -19,6 +19,12 @@
     </properties>
 
     <dependencies>
+        <!-- hystrix -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+            <version>2.2.5.RELEASE</version>
+        </dependency>
         <!--服务接口-->
         <dependency>
             <groupId>com.zh</groupId>
